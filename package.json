@@ -20,9 +20,6 @@
     "mac": {
       "icon": "build/icons/app.icns"
     },
-    "directories": {
-      "output": "build"
-    },
     "extraResources": [
     "data.xlsx"  
   ]
