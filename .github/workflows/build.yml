@@ -28,7 +28,7 @@ jobs:
       run: npm run build -- --win  # 执行打包命令，为 Windows 平台打包应用
 
     - name: Upload Windows build artifact
-      uses: actions/upload-artifact@v3  # 上传构建产物
+      uses: actions/upload-artifact@v4  # 上传构建产物
       with:
         name: windows-build
         path: build/win-unpacked  # 上传打包后的 Windows 应用文件夹
