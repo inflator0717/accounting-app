@@ -10,6 +10,9 @@
   "build": {
     "appId": "com.mycompany.myaccountingapp",
     "productName": "My Accounting App",
+    "directories": {
+      "output": "dist"
+    },
     "win": {
       "target": "nsis",
       "icon": "build/icons/app图标.ico"
