@@ -14,8 +14,6 @@
       "target": "nsis",
       "icon": "build/icons/app图标.ico"
     },
-    "publish": false
-    },
     "mac": {
       "icon": "build/icons/app.icns"
     },
