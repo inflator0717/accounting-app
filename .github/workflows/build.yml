@@ -33,4 +33,4 @@ jobs:
       uses: actions/upload-artifact@v4  # 上传构建产物
       with:
         name: windows-build
-        path: build/win-unpacked  # 上传打包后的 Windows 应用文件夹
+        path: dist/win-unpacked  # 上传打包后的 Windows 应用文件夹
